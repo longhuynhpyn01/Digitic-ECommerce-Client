@@ -11,6 +11,12 @@
 # production
 /build
 
+# .history
+/.history
+
+# .prettierrc
+.prettierrc
+
 # misc
 .DS_Store
 .env.local
