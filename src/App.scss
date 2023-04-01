@@ -299,6 +299,7 @@ footer {
         img {
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+            width: 100%;
         }
     }
 
@@ -596,3 +597,35 @@ footer {
 }
 
 /* Our Store Ends Here */
+
+
+
+/* Blog */
+
+.blog-wrapper {
+
+    .filter-card {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px 15px 25px;
+
+        .filter-title {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            color: var(--color-1c1c1b);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            font-size: 13px;
+            line-height: 30px;
+            color: var(--color-777777);
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Blog Ends Here */
