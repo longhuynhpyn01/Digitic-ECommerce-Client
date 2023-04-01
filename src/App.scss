@@ -337,6 +337,7 @@ footer {
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
+    width: 100%;
 
     .wishlist-icon {
         top: 2%;
@@ -350,6 +351,8 @@ footer {
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             object-fit: contain;
+            // width: 100%;
+            // height: 100%;
 
             &:last-child {
                 display: none;
@@ -366,6 +369,12 @@ footer {
         .product-title {
             font-size: 15px;
             color: var(--color-1c1c1b);
+        }
+
+        .description {
+            font-size: 13px;
+            color: var(--color-777777);
+            margin-right: 20px;
         }
 
         .price {
@@ -452,3 +461,138 @@ footer {
 }
 
 /* Famous Card Ends Here */
+
+
+/* Our Store */
+
+.store-wrapper {
+
+    .filter-card {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px 15px 25px;
+
+        .filter-title {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            color: var(--color-1c1c1b);
+            margin-bottom: 20px;
+        }
+
+        .sub-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--color-1c1c1b);
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+
+        ul,
+        .form-check-label {
+            list-style-type: none;
+            font-size: 13px;
+            line-height: 30px;
+            color: var(--color-777777);
+            cursor: pointer;
+        }
+
+        .form-check-input {
+
+            &:focus {
+                box-shadow: none;
+                border-color: rgba(0, 0, 0, 0.25);
+            }
+
+            &:checked {
+                background-color: var(--color-febd69);
+                border-color: var(--color-febd69);
+            }
+        }
+
+        .colors {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            li {
+                width: 20px;
+                height: 20px;
+                background-color: red;
+                border-radius: 50%;
+            }
+        }
+
+        .random-products {
+
+            h5 {
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+
+            &:first-child {
+                border-bottom: 1px solid var(--color-ededed);
+            }
+        }
+    }
+
+    .filter-sort-grid {
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .grid {
+            img {
+                width: 35px;
+                height: 35px;
+                background-color: #f2f2f2;
+                padding: 8px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.gr-12 {
+    width: 100%;
+
+    .product-card {
+        display: flex;
+        gap: 20px;
+
+        .product-image {
+            width: 270px;
+            height: auto;
+        }
+
+        .action-bar {
+            top: 17%;
+        }
+    }
+}
+
+.gr-6 {
+    width: 49%;
+
+    .product-card {
+        width: 100%;
+
+        .product-image {
+            width: 100%;
+            margin: auto;
+            display: block;
+        }
+    }
+}
+
+.gr-4 {
+    width: 32%;
+}
+
+.gr-3 {
+    width: 24%;
+}
+
+/* Our Store Ends Here */
