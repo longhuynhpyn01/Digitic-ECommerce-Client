@@ -600,7 +600,7 @@ footer {
 
 
 
-/* Blog */
+/* Blogs */
 
 .blog-wrapper {
 
@@ -629,3 +629,47 @@ footer {
 
 
 /* Blog Ends Here */
+
+
+
+/* Contact */
+
+.contact-wrapper {
+
+    .contact-inner-wrapper {
+        padding: 30px 20px;
+        border-radius: 15px;
+        background-color: #fff;
+        gap: 15px;
+
+        &>div {
+            width: 48%;
+        }
+
+        .contact-title {
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 35px;
+            text-align: left;
+        }
+
+        .form-wrapper .form-control {
+            background-color: var(--color-f5f5f7);
+            border-radius: 10px;
+            border-color: transparent;
+            padding: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        address,
+        a,
+        p {
+            color: var(--color-777777);
+        }
+    }
+}
+
+/* Contact Ends Here */
