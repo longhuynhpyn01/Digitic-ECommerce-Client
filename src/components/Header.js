@@ -135,7 +135,7 @@ const Header = () => {
                                             aria-expanded="false"
                                         >
                                             <img
-                                                src="images/menu.svg"
+                                                src="/images/menu.svg"
                                                 alt="menu"
                                             />
                                             <span className="me-5 d-inline-block">

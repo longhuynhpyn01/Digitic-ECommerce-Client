@@ -872,3 +872,33 @@ footer {
 }
 
 /* Auth Page Ends Here */
+
+
+
+
+/* Single Blog Page */
+
+.single-blog-wrapper {
+
+    .single-blog-card {
+
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--color-777777);
+        }
+
+        .desc {
+            font-size: 14px;
+            color: var(--color-777777);
+        }
+
+        a {
+            font-size: 15px;
+            color: var(--color-777777);
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Single Blog Page Ends Here */
