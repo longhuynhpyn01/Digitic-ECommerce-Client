@@ -68,6 +68,80 @@ a {
     margin-bottom: 30px;
 }
 
+.colors {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    li {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 50%;
+
+        &:nth-child(1) {
+            background-color: red;
+        }
+
+        &:nth-child(2) {
+            background-color: yellow;
+        }
+
+        &:nth-child(3) {
+            background-color: blue;
+        }
+
+        &:nth-child(4) {
+            background-color: green;
+        }
+
+        &:nth-child(5) {
+            background-color: aqua;
+        }
+
+        &:nth-child(6) {
+            background-color: black;
+        }
+
+        &:nth-child(7) {
+            background-color: brown;
+        }
+
+        &:nth-child(8) {
+            background-color: orange;
+        }
+
+        &:nth-child(9) {
+            background-color: crimson
+        }
+
+        &:nth-child(10) {
+            background-color: pink;
+        }
+
+        &:nth-child(11) {
+            background-color: grey;
+        }
+
+        &:nth-child(12) {
+            background-color: lime;
+        }
+
+        &:nth-child(13) {
+            background-color: darkmagenta;
+        }
+
+        &:nth-child(14) {
+            background-color: violet
+        }
+
+        &:nth-child(15) {
+            background-color: darkgoldenrod
+        }
+    }
+}
+
 /* Header Part */
 
 .header-top-strip {
@@ -464,7 +538,7 @@ footer {
 /* Famous Card Ends Here */
 
 
-/* Our Store */
+/* Our Store Page */
 
 .store-wrapper {
 
@@ -508,20 +582,6 @@ footer {
             &:checked {
                 background-color: var(--color-febd69);
                 border-color: var(--color-febd69);
-            }
-        }
-
-        .colors {
-            list-style-type: none;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-
-            li {
-                width: 20px;
-                height: 20px;
-                background-color: red;
-                border-radius: 50%;
             }
         }
 
@@ -596,11 +656,11 @@ footer {
     width: 24%;
 }
 
-/* Our Store Ends Here */
+/* Our Store Page Ends Here */
 
 
 
-/* Blogs */
+/* Blogs Page */
 
 .blog-wrapper {
 
@@ -628,11 +688,11 @@ footer {
 }
 
 
-/* Blog Ends Here */
+/* Blog Page Ends Here */
 
 
 
-/* Contact */
+/* Contact Page */
 
 .contact-wrapper {
 
@@ -673,3 +733,50 @@ footer {
 }
 
 /* Contact Ends Here */
+
+
+
+/* Compare Product Page */
+
+.compare-product-wrapper {
+
+    .compare-product-card {
+        padding: 20px 15px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .cross {
+            top: 10px;
+            right: 10px;
+            width: 25px;
+            padding: 3px;
+            cursor: pointer;
+        }
+
+        .compare-product-details {
+
+            .title {
+                font-size: 15px;
+                line-height: 22px;
+                font-weight: 500;
+                color: var(--color-1c1c1b);
+            }
+
+            .price {
+                font-size: 15px;
+                line-height: 22px;
+                font-weight: 400;
+            }
+
+            .product-detail {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 0;
+                border-top: 1px solid var(--color-f5f5f7);
+            }
+        }
+    }
+}
+
+/* Compare Product Page Ends Here */
