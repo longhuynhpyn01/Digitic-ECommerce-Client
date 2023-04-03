@@ -819,3 +819,56 @@ footer {
 }
 
 /* Wishlist Page Ends Here */
+
+
+
+/* Auth Page */
+
+.auth-wrapper {
+
+    .auth-card {
+        padding: 20px;
+        background-color: #fff;
+        width: 500px;
+        margin: 30px auto;
+
+        .title {
+            font-size: 19px;
+            font-weight: 500;
+            color: var(--color-777777);
+        }
+
+        .desc {
+            font-size: 13px;
+            color: var(--color-777777);
+        }
+
+        .form-control {
+            height: 50px;
+            background-color: var(--color-f5f5f7);
+            color: var(--color-777777);
+            font-size: 14px;
+            border-radius: 10px;
+            border-color: transparent;
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--color-1c1c1b);
+        }
+
+        .signup {
+            background-color: var(--color-febd69);
+            color: var(--color-131921);
+
+
+            &:hover {
+                background-color: var(--color-131921);
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* Auth Page Ends Here */
