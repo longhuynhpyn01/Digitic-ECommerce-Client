@@ -125,9 +125,11 @@ const SingleProduct = () => {
                                     </div>
                                     <div className="d-flex gap-10 align-items-center my-2">
                                         <h3 className="product-heading">
-                                            Availablity:{" "}
+                                            Availability:{" "}
                                         </h3>
-                                        <p className="product-data">In Stock</p>
+                                        <p className="product-data">
+                                            541 In Stock
+                                        </p>
                                     </div>
                                     <div className="d-flex gap-10 flex-column mt-2 mb-3">
                                         <h3 className="product-heading">
