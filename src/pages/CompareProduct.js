@@ -14,13 +14,13 @@ const CompareProduct = () => {
                         <div className="col-3">
                             <div className="compare-product-card position-relative">
                                 <img
-                                    src="images/cross.svg"
+                                    src="/images/cross.svg"
                                     alt="watch"
                                     className="img-fluid position-absolute cross"
                                 />
                                 <div className="product-card-image">
                                     <img
-                                        src="images/watch.jpg"
+                                        src="/images/watch.jpg"
                                         alt="watch"
                                         className="img-fluid"
                                     />
@@ -62,13 +62,13 @@ const CompareProduct = () => {
                         <div className="col-3">
                             <div className="compare-product-card position-relative">
                                 <img
-                                    src="images/cross.svg"
+                                    src="/images/cross.svg"
                                     alt="watch"
                                     className="img-fluid position-absolute cross"
                                 />
                                 <div className="product-card-image">
                                     <img
-                                        src="images/watch.jpg"
+                                        src="/images/watch.jpg"
                                         alt="watch"
                                         className="img-fluid"
                                     />

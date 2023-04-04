@@ -13,13 +13,13 @@ const WishList = () => {
                         <div className="col-3">
                             <div className="wishlist-card position-relative">
                                 <img
-                                    src="images/cross.svg"
+                                    src="/images/cross.svg"
                                     alt="watch"
                                     className="img-fluid position-absolute cross"
                                 />
                                 <div className="wishlist-card-image">
                                     <img
-                                        src="images/watch.jpg"
+                                        src="/images/watch.jpg"
                                         alt="watch"
                                         className="img-fluid"
                                     />
@@ -36,13 +36,13 @@ const WishList = () => {
                         <div className="col-3">
                             <div className="wishlist-card position-relative">
                                 <img
-                                    src="images/cross.svg"
+                                    src="/images/cross.svg"
                                     alt="watch"
                                     className="img-fluid position-absolute cross"
                                 />
                                 <div className="wishlist-card-image">
                                     <img
-                                        src="images/watch.jpg"
+                                        src="/images/watch.jpg"
                                         alt="watch"
                                         className="img-fluid"
                                     />
@@ -59,13 +59,13 @@ const WishList = () => {
                         <div className="col-3">
                             <div className="wishlist-card position-relative">
                                 <img
-                                    src="images/cross.svg"
+                                    src="/images/cross.svg"
                                     alt="watch"
                                     className="img-fluid position-absolute cross"
                                 />
                                 <div className="wishlist-card-image">
                                     <img
-                                        src="images/watch.jpg"
+                                        src="/images/watch.jpg"
                                         alt="watch"
                                         className="img-fluid"
                                     />
@@ -82,13 +82,13 @@ const WishList = () => {
                         <div className="col-3">
                             <div className="wishlist-card position-relative">
                                 <img
-                                    src="images/cross.svg"
+                                    src="/images/cross.svg"
                                     alt="watch"
                                     className="img-fluid position-absolute cross"
                                 />
                                 <div className="wishlist-card-image">
                                     <img
-                                        src="images/watch.jpg"
+                                        src="/images/watch.jpg"
                                         alt="watch"
                                         className="img-fluid"
                                     />

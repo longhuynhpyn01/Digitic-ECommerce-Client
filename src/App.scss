@@ -55,6 +55,17 @@ a {
     }
 }
 
+.signup {
+    background-color: var(--color-febd69);
+    color: var(--color-131921);
+    border: none;
+
+    &:hover {
+        background-color: var(--color-131921);
+        color: #fff;
+    }
+}
+
 .card-wrapper {
     background-color: #fff;
     box-shadow: 0 0 10px #0000001a;
@@ -861,7 +872,7 @@ footer {
         .signup {
             background-color: var(--color-febd69);
             color: var(--color-131921);
-
+            border: none;
 
             &:hover {
                 background-color: var(--color-131921);
@@ -872,7 +883,6 @@ footer {
 }
 
 /* Auth Page Ends Here */
-
 
 
 
@@ -902,3 +912,210 @@ footer {
 }
 
 /* Single Blog Page Ends Here */
+
+
+
+/* Policy Page */
+
+.policy-wrapper {
+
+    .policy {
+        background-color: #fff;
+        padding: 30px;
+    }
+}
+
+/* Policy Page Ends Here */
+
+
+
+/* Main Product Page */
+
+.main-product-wrapper {
+
+    .main-product-image {
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        &>div {
+            border: 1px solid rgba(0, 0, 0, 0.25);
+        }
+
+        img {
+            width: 100% !important;
+            height: 600px !important;
+            object-fit: cover;
+        }
+
+        .js-image-zoom__zoomed-image {
+            left: 50px !important;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            background-size: 600px 600px !important;
+            z-index: 1000;
+        }
+    }
+
+    .other-product-images {
+        background-color: #fff;
+        padding: 20px;
+
+        &>div {
+            padding: 20px;
+            width: 48%;
+            border: 1px solid rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    .main-product-image-2 {
+        padding: 30px 20px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .border-bottom {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+            .title {
+                font-size: 18px;
+                font-weight: 600;
+                color: var(--color-1c1c1b);
+                margin-bottom: 10px;
+            }
+
+            .price {
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .t-review {
+                font-size: 13px;
+                color: var(--color-777777);
+            }
+
+            .review-btn {
+                font-size: 13px;
+                color: var(--color-777777);
+            }
+        }
+
+        .product-heading {
+            font-size: 14px;
+            color: var(--color-1c1c1b);
+            margin-bottom: 0;
+        }
+
+        .product-data {
+            font-size: 13px;
+            color: var(--color-777777);
+            margin-bottom: 0;
+        }
+
+        a {
+            font-size: 14px;
+            color: var(--color-777777);
+        }
+    }
+}
+
+
+/* Description Product */
+
+.description-wrapper {
+
+    h4 {
+        font-size: 26px;
+        color: var(--color-1c1c1b);
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        color: var(--color-777777);
+    }
+}
+
+/* Description Product Ends */
+
+
+/* Reviews Product */
+
+.reviews-wrapper {
+
+    h3 {
+        font-size: 26px;
+        color: var(--color-1c1c1b);
+        margin-bottom: 10px;
+    }
+
+    .review-inner-wrapper {
+        background-color: #fff;
+        padding: 30px;
+
+        .review-head {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding-bottom: 20px;
+
+            h4 {
+                font-size: 18px;
+                color: var(--color-1c1c1b);
+            }
+
+            p,
+            a {
+                font-size: 14px;
+                color: var(--color-777777);
+            }
+        }
+
+        .review-form {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+            h4 {
+                font-size: 16px;
+                color: var(--color-777777);
+            }
+
+            a {
+                font-size: 14px;
+                font-weight: 400;
+                color: var(--color-1c1c1b);
+            }
+
+            .signup {
+                background-color: var(--color-febd69);
+                color: var(--color-131921);
+                border: none;
+
+                &:hover {
+                    background-color: var(--color-131921);
+                    color: #fff;
+                }
+            }
+        }
+
+        .reviews {
+
+            .review {
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                }
+
+                p {
+                    font-size: 14px;
+                    color: var(--color-777777);
+                }
+            }
+        }
+    }
+
+}
+
+/* Reviews Product Ends */
+
+
+/* Main Product Page Ends Here */

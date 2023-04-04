@@ -10,23 +10,26 @@ const ProductCard = (props) => {
         <>
             <div
                 className={`${
-                    location.pathname === "/store" ? `gr-${grid}` : "col-3"
+                    location.pathname === "/product" ? `gr-${grid}` : "col-3"
                 }`}
             >
-                <Link className="product-card position-relative">
+                <Link
+                    to="/product/:id"
+                    className="product-card position-relative"
+                >
                     <div className="wishlist-icon position-absolute">
                         <Link>
-                            <img src="images/wish.svg" alt="wishlist" />
+                            <img src="/images/wish.svg" alt="wishlist" />
                         </Link>
                     </div>
                     <div className="product-image">
                         <img
-                            src="images/watch.jpg"
+                            src="/images/watch.jpg"
                             alt="product_image"
                             className="img-fluid"
                         />
                         <img
-                            src="images/tab.jpg"
+                            src="/images/tab.jpg"
                             alt="product_image_2"
                             className="img-fluid"
                         />
@@ -61,15 +64,15 @@ const ProductCard = (props) => {
                         <div className="d-flex flex-column gap-15">
                             <Link>
                                 <img
-                                    src="images/prodcompare.svg"
+                                    src="/images/prodcompare.svg"
                                     alt="compare"
                                 />
                             </Link>
                             <Link>
-                                <img src="images/view.svg" alt="view" />
+                                <img src="/images/view.svg" alt="view" />
                             </Link>
                             <Link>
-                                <img src="images/add-cart.svg" alt="addcar" />
+                                <img src="/images/add-cart.svg" alt="addcar" />
                             </Link>
                         </div>
                     </div>

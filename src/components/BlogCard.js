@@ -5,7 +5,11 @@ const BlogCard = () => {
     return (
         <div className="blog-card">
             <div className="blog-image">
-                <img src="images/blog-1.jpg" alt="blog" className="img-fluid" />
+                <img
+                    src="/images/blog-1.jpg"
+                    alt="blog"
+                    className="img-fluid"
+                />
             </div>
             <div className="blog-content">
                 <p className="date">1 Dec, 2022</p>
