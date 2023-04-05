@@ -2,6 +2,7 @@ import React from "react";
 import Meta from "../components/Meta";
 import BreadCrumb from "../components/BreadCrumb";
 import Container from "../components/Container";
+import CustomInput from "../components/CustomInput";
 
 const ResetPassword = () => {
     return (
@@ -19,22 +20,16 @@ const ResetPassword = () => {
                                 action=""
                                 className="d-flex flex-column gap-15"
                             >
-                                <div>
-                                    <input
-                                        type="password"
-                                        name="password"
-                                        placeholder="Password"
-                                        className="form-control"
-                                    />
-                                </div>
-                                <div>
-                                    <input
-                                        type="password"
-                                        name="confirmPassword"
-                                        placeholder="Confirm Password"
-                                        className="form-control"
-                                    />
-                                </div>
+                                <CustomInput
+                                    type="password"
+                                    name="password"
+                                    placeholder="Password"
+                                />
+                                <CustomInput
+                                    type="password"
+                                    name="confirmPassword"
+                                    placeholder="Confirm Password"
+                                />
                                 <div>
                                     <div className="d-flex justify-content-center align-items-center gap-15">
                                         <button className="button border-0">
